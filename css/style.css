@@ -1,0 +1,128 @@
+	@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Anton&family=Audiowide&family=Black+Ops+One&family=Comforter+Brush&family=Dongle:wght@700&family=Island+Moments&family=Londrina+Outline&family=Londrina+Shadow&family=Marck+Script&family=Mochiy+Pop+P+One&family=Monoton&family=Montserrat:wght@100;400&family=Mukta:wght@700&family=Mulish:wght@600&family=Passion+One:wght@900&family=Permanent+Marker&family=Poppins:wght@400;500;900&family=Press+Start+2P&family=Roboto:ital,wght@1,900&family=Rubik+Mono+One&family=Sigmar+One&family=Slabo+27px&family=Work+Sans:wght@500&display=swap');
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		nav {
+			font-size: 20px;
+			color: #a19e97;
+		}
+		.green-land {
+			font-size: 120px;
+			text-align: center;
+			color: #ffffff;
+			opacity: 0.6;
+			/*font-family: 'Londrina Shadow', cursive;*/
+			font-family: 'Mulish', sans-serif;
+		}
+		.lorem {
+			font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            color: #ffffff;
+            opacity: 0.8;
+            text-align: center;
+		}
+		.show-more {
+			padding: 10px 30px 10px 30px;
+			background-color: #ffffff;
+			color: #212117;
+			border-radius: 25px;
+			margin-left: 45%;
+			opacity: 0.5;
+			font-weight: 700;
+		}
+		.btn {
+			margin-top: 50px;
+			font-family: 'Mukta', sans-serif;
+			font-size: 20px;
+		}
+		nav {
+            position: relative;
+            list-style: none;
+            margin-left: 15%;
+            margin-top: 50%;
+            margin-right: 20px;
+        }
+        ul {
+            list-style: none;
+            align-items: center;
+        }
+        .right-item {
+            float: left;
+            margin-left: 20px;
+        }
+        ul li a {
+            text-decoration: none;
+            color: #fbe2f8;
+            padding: 15px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+            line-height: 1.6;
+            /*-webkit-text-decoration: white solid underline; линия под текстом
+            text-decoration: white solid underline;
+            -webkit-text-underline-position: under;
+            text-underline-position: under;*/
+            font-weight: 600;
+        }
+        .menu {
+            position: relative;
+            height: 50px;
+            text-align: center;
+            padding-top: 20px;
+        }
+        .button {
+    	    font-size: 15px;
+    	    color: #ffffff;
+    	    opacity: 0.7;
+    	   /* margin-left: 100px;*/
+        }
+        .show-more:hover {
+        	opacity: 1;
+        	background-color: #e7e7e7;
+        	color: #000000;
+        	transition: 0.6s;
+        }
+        .button:hover {
+        	transition: 0.7s;
+        	color: #000000;
+        	background-color: #ffffff;
+        	opacity: 0.7;
+        	border-radius: 100%;
+        }
+        .hidden-bar {
+          height: 100%;
+          width: 0;
+          position: fixed;
+          z-index: 1;
+          top: 0;
+          left: 0;
+          /*background-color: #111;*/
+          opacity: 0.8;
+          overflow-x: hidden;
+          transition: 0.5s;
+          padding-top: 10%;
+          text-align: center;
+
+        }
+        .hidden-bar a {
+          padding: 15%;
+          text-decoration: none;
+          font-size: 25px;
+          color: #ffffff;
+          display: block;
+          transition: 0.3s;
+          text-align: center;
+        }
+        .hidden-bar a:hover {
+          color: #000000;
+          border-radius: 25px;
+          transition: 0.3s;
+        }    
+        .hidden-bar .closebtn {
+          position: absolute;
+          top: 0;
+          right: 25px;
+          font-size: 36px;
+          margin-left: 50px;
+          font-family: 'Poppins', sans-serif;
+        }
